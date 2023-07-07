@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AvanzamentoCSV": {
+      "commandName": "Project",
+      "commandLineArgs": "Stazione=01"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="EtichetteFU" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" Margins="0, 0, 0, 0" PaperKind="Custom" PageWidth="519" PageHeight="519" Version="20.2" ShowPrintMarginsWarning="false" DataMember="YStpEtichFU" DataSource="#Ref-0" Dpi="254">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="0" Dpi="254" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="518.000061" Dpi="254">
+      <HierarchyPrintOptions Ref="4" Indent="50.8" />
+      <Controls>
+        <Item1 Ref="5" ControlType="XRLabel" Name="label13" CanGrow="false" Text="CONTIENE SOLFITI -" TextAlignment="MiddleCenter" WordWrap="false" SizeF="212.039978,47.8367" LocationFloat="75.4375,397.7668" Dpi="254" Font="Arial Narrow, 7pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="6" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="7" ControlType="XRLabel" Name="label12" Multiline="true" Text="label12" TextAlignment="MiddleCenter" SizeF="479.600281,41.1283875" LocationFloat="17.3999348,171.101761" Dpi="254" Font="Arial Narrow, 11pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="8" EventName="BeforePrint" PropertyName="Text" Expression="[ValoreEtich4]" />
+          </ExpressionBindings>
+          <StylePriority Ref="9" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="10" ControlType="XRLabel" Name="label2" CanGrow="false" Text="label2" TextAlignment="MiddleCenter" WordWrap="false" SizeF="432.9202,53.128334" LocationFloat="38.4375,117.190842" Dpi="254" Font="Arial Narrow, 12.5pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="11" EventName="BeforePrint" PropertyName="Text" Expression="[ValoreEtich2]" />
+          </ExpressionBindings>
+          <StylePriority Ref="12" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="13" ControlType="XRLabel" Name="label1" CanGrow="false" Text="label1" TextAlignment="MiddleCenter" WordWrap="false" SizeF="353,45.19084" LocationFloat="79.4149,69" Dpi="254" Font="Arial Narrow, 11pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="14" EventName="BeforePrint" PropertyName="Text" Expression="[ValoreEtich1]" />
+          </ExpressionBindings>
+          <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="16" ControlType="XRLabel" Name="label11" CanGrow="false" Text="label11" TextAlignment="MiddleCenter" WordWrap="false" SizeF="156.880219,47.8367" LocationFloat="286.477478,397.7668" Dpi="254" Font="Arial Narrow, 9pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="17" EventName="BeforePrint" PropertyName="Text" Expression="[RifLottoAlfanum]" />
+          </ExpressionBindings>
+          <StylePriority Ref="18" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="19" ControlType="XRLabel" Name="label10" CanGrow="false" Text="TREBASELEGHE - ITALIA" TextAlignment="MiddleCenter" WordWrap="false" SizeF="409.939453,32.6399536" LocationFloat="59.75992,363.126862" Dpi="254" Font="Arial Narrow, 7pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="20" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="21" ControlType="XRLabel" Name="label9" CanGrow="false" Text="I.C.Q. PD5913 - CONDIZIONATO DA T.V. SPA" TextAlignment="MiddleCenter" WordWrap="false" SizeF="444.439148,38.6400146" LocationFloat="38.2599945,324.486847" Dpi="254" Font="Arial Narrow, 7pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="22" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="23" ControlType="XRLabel" Name="label8" Multiline="true" Text="% Vol." TextAlignment="MiddleCenter" SizeF="111.284149,69.42001" LocationFloat="336.415,255.066864" Dpi="254" Font="Arial Narrow, 11.5pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="24" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="25" ControlType="XRLabel" Name="label7" TextFormatString="{0:n}" Multiline="true" Text="label7" TextAlignment="MiddleRight" SizeF="134.937531,69.42001" LocationFloat="201.477478,255.066864" Dpi="254" Font="Arial Narrow, 16.5pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="26" EventName="BeforePrint" PropertyName="Text" Expression="[GradoAlcolico]" />
+          </ExpressionBindings>
+          <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="28" ControlType="XRLabel" Name="label6" Multiline="true" Text="lt" TextAlignment="MiddleCenter" SizeF="72.26495,69.42001" LocationFloat="129.212524,255.066864" Dpi="254" Font="Arial Narrow, 16.5pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="29" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="30" ControlType="XRLabel" Name="label5" TextFormatString="{0:#,#}" Multiline="true" Text="label5" TextAlignment="MiddleRight" SizeF="109.212524,69.42001" LocationFloat="18,255.066864" Dpi="254" Font="Arial Narrow, 16.5pt, style=Bold" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="31" EventName="BeforePrint" PropertyName="Text" Expression="[MagCoeffUm2MagDen]" />
+          </ExpressionBindings>
+          <StylePriority Ref="32" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="33" ControlType="XRLabel" Name="label4" CanGrow="false" Text="PRODOTTO IN ITALIA" TextAlignment="MiddleCenter" WordWrap="false" SizeF="502.76004,39.8367157" LocationFloat="10.23996,212.230148" Dpi="254" Font="Arial Narrow, 9.5pt, style=Bold" Padding="5,5,0,0,254">
+          <StylePriority Ref="34" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="35" ControlType="XRShape" Name="shape1" LineWidth="0" SizeF="518,518" LocationFloat="0,0" Dpi="254" BorderWidth="0">
+          <StylePriority Ref="36" UseBorderWidth="false" />
+        </Item13>
+      </Controls>
+    </Item2>
+    <Item3 Ref="37" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="0" Dpi="254" />
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v20.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9ImxvY2FsaG9zdF9FTk9MT0dJQVZFVF9Db25uZWN0aW9uIiBQcm92aWRlcktleT0iTVNTcWxTZXJ2ZXIiPjxQYXJhbWV0ZXJzPjxQYXJhbWV0ZXIgTmFtZT0ic2VydmVyIiBWYWx1ZT0ic3J2LWludGVncmEiIC8+PFBhcmFtZXRlciBOYW1lPSJkYXRhYmFzZSIgVmFsdWU9IkVOT0xPR0lBVkVUIiAvPjxQYXJhbWV0ZXIgTmFtZT0idXNlSW50ZWdyYXRlZFNlY3VyaXR5IiBWYWx1ZT0iRmFsc2UiIC8+PFBhcmFtZXRlciBOYW1lPSJyZWFkIG9ubHkiIFZhbHVlPSIxIiAvPjxQYXJhbWV0ZXIgTmFtZT0iZ2VuZXJhdGVDb25uZWN0aW9uSGVscGVyIiBWYWx1ZT0iZmFsc2UiIC8+PFBhcmFtZXRlciBOYW1lPSJ1c2VyaWQiIFZhbHVlPSIiIC8+PFBhcmFtZXRlciBOYW1lPSJwYXNzd29yZCIgVmFsdWU9IiIgLz48L1BhcmFtZXRlcnM+PC9Db25uZWN0aW9uPjxRdWVyeSBUeXBlPSJTZWxlY3RRdWVyeSIgTmFtZT0iWVN0cEV0aWNoRlUiPjxUYWJsZXM+PFRhYmxlIE5hbWU9IllTdHBFdGljaEZVIiBYPSIzMCIgWT0iMzAiIFdpZHRoPSIxMjUiIEhlaWdodD0iMzU1IiAvPjwvVGFibGVzPjxDb2x1bW5zPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJEQkdydXBwbyIgLz48Q29sdW1uIFRhYmxlPSJZU3RwRXRpY2hGVSIgTmFtZT0iQ29kQXJ0IiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJEZXNBcnQiIC8+PENvbHVtbiBUYWJsZT0iWVN0cEV0aWNoRlUiIE5hbWU9IkNvZE1hcmNhIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJEZXNNYXJjYSIgLz48Q29sdW1uIFRhYmxlPSJZU3RwRXRpY2hGVSIgTmFtZT0iQ2xhc3NlTWVyY2VvbG9naWNhIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJEZXNDbGFzc2UiIC8+PENvbHVtbiBUYWJsZT0iWVN0cEV0aWNoRlUiIE5hbWU9Ik1hZ0NvZWZmVW0yTWFnRGVuIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJHcmFkb0FsY29saWNvIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJRdGFVbVNlY29uZGFyaWEiIC8+PENvbHVtbiBUYWJsZT0iWVN0cEV0aWNoRlUiIE5hbWU9IlF1YW50aXRhIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJSaWZMb3R0b0FsZmFudW0iIC8+PENvbHVtbiBUYWJsZT0iWVN0cEV0aWNoRlUiIE5hbWU9IlZhbG9yZUV0aWNoMSIgLz48Q29sdW1uIFRhYmxlPSJZU3RwRXRpY2hGVSIgTmFtZT0iVmFsb3JlRXRpY2gyIiAvPjxDb2x1bW4gVGFibGU9IllTdHBFdGljaEZVIiBOYW1lPSJWYWxvcmVFdGljaDMiIC8+PENvbHVtbiBUYWJsZT0iWVN0cEV0aWNoRlUiIE5hbWU9IlZhbG9yZUV0aWNoNCIgLz48L0NvbHVtbnM+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJZU3RwRXRpY2hGVSI+PEZpZWxkIE5hbWU9IkRCR3J1cHBvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvZEFydCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEZXNBcnQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29kTWFyY2EiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRGVzTWFyY2EiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ2xhc3NlTWVyY2VvbG9naWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRlc0NsYXNzZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJNYWdDb2VmZlVtMk1hZ0RlbiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iR3JhZG9BbGNvbGljbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iUXRhVW1TZWNvbmRhcmlhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJRdWFudGl0YSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iUmlmTG90dG9BbGZhbnVtIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlZhbG9yZUV0aWNoMSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJWYWxvcmVFdGljaDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVmFsb3JlRXRpY2gzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlZhbG9yZUV0aWNoNCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
